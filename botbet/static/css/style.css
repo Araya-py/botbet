@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: #1D1D1D;
+}
+
+nav{
+    display: flex;
+    background-color: #292929;
+    align-items: center;
+}
+
+.logo{
+    width: 332px;
+    height: 75px;
+    background-color: #101010;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 93px;
+    margin-right: 90px;
+}
+
+.list{
+    flex: 1;
+    margin-left: 42px;
+}
+
+.list a{
+    margin-right: 61px;
+    opacity: 50%;
+}
+
+.login{
+    margin-right: 100px;
+}
+
+.login a{
+    margin-left: 61px;
+    opacity: 50%;
+}
+
+.list a:hover, .login a:hover{
+    opacity: 100%;
+}

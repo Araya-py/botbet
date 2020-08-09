@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Error{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="{% static 'img/logo.png' %}"></div>
+        <div class="list">
+            <a href="#">Прогнозы</a>
+            <a href="#">Статистика</a>
+            <a href="#">Цена</a>
+            <a href="#">Информация</a>
+        </div>
+        <div class="time"></div>
+        <div class="login">
+            <a href="#">Профиль</a>
+            <a href="#">Выйти</a>
+        </div>
+    </nav>
+</body>
+</html>
